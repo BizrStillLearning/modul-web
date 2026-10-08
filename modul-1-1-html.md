@@ -3,8 +3,8 @@ title: "Modul 1.1: Web Foundations & HTML"
 date: 2026-03-11
 weight: 1
 description: "Pengenalan cara kerja website, tools yang dibutuhkan, serta dasar HTML."
-categories: ["Web Development", "GDGOC ITS"]
-tags: ["html", "css", "javascript", "gdgoc"]
+categories: ["Web Development"]
+tags: ["html", "css", "javascript"]
 showToc: true
 TocOpen: false
 ---
@@ -66,7 +66,7 @@ Bagian-bagiannya:
    Nama elemen yang dibungkus kurung sudut, misalnya `<p>`. Ini menandakan awal elemen paragraf.
 
 2. **Content (Konten)**  
-   Teks atau elemen lain yang berada di dalam elemen, misalnya `Hello, GDGoC ITS!`.
+   Teks atau elemen lain yang berada di dalam elemen, misalnya `Hello, HIMATIFA`.
 
 3. **Closing Tag (Tag Penutup)**  
    Tag dengan tanda garis miring di depan nama elemen, misalnya `</p>`. Ini menandakan akhir elemen paragraf.
@@ -75,7 +75,7 @@ Bagian-bagiannya:
    Gabungan opening tag, content, dan closing tag:
 
    ```html
-   <p>Hello, GDGoC ITS!</p>
+   <p>Hello, HIMATIFA</p>
    ```
 
 Beberapa elemen tidak memiliki closing tag, disebut **void elements**, misalnya:
@@ -101,7 +101,7 @@ Setiap halaman HTML yang baik memiliki struktur dasar seperti ini:
     <title>Halaman Pertamaku</title>
   </head>
   <body>
-    <h1>Halo, GDGoC ITS!</h1>
+    <h1>Halo, HIMATIFA!</h1>
     <p>Ini adalah halaman HTML pertamaku.</p>
   </body>
 </html>
@@ -171,8 +171,8 @@ Paragraf digunakan untuk teks biasa yang agak panjang.
 ## 6.1 Link (Anchor)
 
 ```html
-<a href="https://www.acaryawibawantra.xyz/gdgoc" target="_blank">
-  Kunjungi Modul Web Development GDGoC ITS
+<a href="https://www.instagram/bizrrr_ae" target="_blank">
+  Kunjungi akun Instagram saya
 </a>
 ```
 
@@ -184,7 +184,7 @@ Atribut penting:
 ## 6.2 Gambar
 
 ```html
-<img src="logo-gdgoc.png" alt="Logo GDGoC ITS" />
+<img src="test.jpg" alt="Gambar" />
 ```
 
 Atribut penting:
@@ -225,7 +225,7 @@ Agar halaman mudah dibaca manusia dan mesin (search engine, screen reader), guna
 ```html
 <body>
   <header>
-    <h1>GDGoC ITS – Web Foundations</h1>
+    <h1>Hello HIMATIFA</h1>
     <p>Belajar HTML, CSS, dan JavaScript dari dasar.</p>
   </header>
 
@@ -248,7 +248,7 @@ Agar halaman mudah dibaca manusia dan mesin (search engine, screen reader), guna
   </main>
 
   <footer>
-    <p>Built for GDGoC ITS Web Foundations.</p>
+    <p>Built HIMATIFA Web Foundations.</p>
   </footer>
 </body>
 ```
@@ -287,8 +287,7 @@ Contoh struktur minimal (silakan modifikasi sendiri):
   <body>
     <h1>Halo, Web Development!</h1>
     <p>
-      Saya belajar web development supaya bisa membuat website untuk komunitas
-      GDGoC ITS.
+      Saya belajar web development supaya bisa membuat website untuk berkembang
     </p>
 
     <h2>Yang ingin saya pelajari:</h2>
@@ -297,13 +296,6 @@ Contoh struktur minimal (silakan modifikasi sendiri):
       <li>CSS untuk styling</li>
       <li>JavaScript untuk interaktivitas</li>
     </ul>
-
-    <p>
-      Lihat modul lengkap di
-      <a href="https://www.acaryawibawantra.xyz/gdgoc" target="_blank">
-        Modul Web Development GDGoC ITS
-      </a>.
-    </p>
   </body>
 </html>
 ```
