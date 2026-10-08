@@ -3,8 +3,8 @@ title: "Modul 1.3: Dasar-dasar JavaScript"
 date: 2026-03-11
 weight: 3
 description: "Menambahkan interaktivitas dan logika pemrograman ke dalam website dengan JavaScript."
-categories: ["Web Development", "GDGOC ITS"]
-tags: ["html", "css", "javascript", "gdgoc"]
+categories: ["Web Development"]
+tags: ["html", "css", "javascript"]
 showToc: true
 TocOpen: false
 ---
@@ -77,7 +77,7 @@ const daftarItem = document.querySelectorAll("li"); // Menghasilkan daftar eleme
 ### B. Mengubah Konten dan Gaya
 ```js
 const pesan = document.getElementById("pesan");
-pesan.textContent = "Halo, GDGOC ITS!"; // Mengubah teks
+pesan.textContent = "Halo, HIMATIFA!"; // Mengubah teks
 pesan.style.color = "blue";             // Mengubah warna via CSS
 ```
 
@@ -118,7 +118,7 @@ JavaScript memiliki beberapa tipe data dasar:
 1.  **String**: Teks (contoh: `"Halo"`).
 2.  **Number**: Angka (contoh: `42`, `3.14`).
 3.  **Boolean**: `true` atau `false`.
-4.  **Object**: Kumpulan data (contoh: `{ nama: "Acarya", usia: 20 }`).
+4.  **Object**: Kumpulan data (contoh: `{ nama: "Abidzar", usia: 19 }`).
 5.  **Array**: Daftar data berurutan.
 6.  **null** & **undefined**: Nilai kosong atau belum terdefinisi.
 
@@ -172,12 +172,12 @@ const tambah = (a, b) => a + b;
 Digunakan untuk menyimpan kumpulan data dalam bentuk pasangan `key: value`.
 ```javascript
 const user = {
-  nama: "Acarya",
-  peran: "Instruktur",
+  nama: "Abidzar",
+  peran: "Programmer",
   aktif: true
 };
 
-console.log(user.nama); // Output: Acarya
+console.log(user.nama); // Output: Abidzar
 ```
 
 **2. Array**
