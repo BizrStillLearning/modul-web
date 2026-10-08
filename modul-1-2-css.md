@@ -3,8 +3,8 @@ title: "Modul 1.2: Cascading Style Sheets (CSS)"
 date: 2026-03-11
 weight: 2
 description: "Mempelajari bagaimana memberikan gaya dan tata letak pada halaman web menggunakan CSS."
-categories: ["Web Development", "GDGOC ITS"]
-tags: ["html", "css", "javascript", "gdgoc"]
+categories: ["Web Development"]
+tags: ["html", "css", "javascript"]
 showToc: true
 TocOpen: false
 ---
@@ -141,19 +141,6 @@ Gunakan tanda pagar (`#`).
 
 > Catatan: `id` sebaiknya unik di satu halaman, sedangkan `class` bisa dipakai di banyak elemen.
 
-## 4.4 Grouping Selector
-
-Beberapa selector bisa digabung jika punya gaya yang sama.
-
-```css
-h1,
-h2,
-h3 {
-  font-family: system-ui, sans-serif;
-  color: #111827;
-}
-```
-
 ---
 
 # 5. Properti CSS Dasar
@@ -277,7 +264,7 @@ Flexbox memudahkan mengatur layout satu dimensi (horizontal/vertical).
 
 ```html
 <header class="navbar">
-  <h1>GDGoC ITS</h1>
+  <h1>HIMATIFA</h1>
   <nav>
     <a href="#about">About</a>
     <a href="#topics">Topics</a>
